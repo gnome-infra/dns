@@ -1,0 +1,40 @@
+name: Push changes
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: gnome-infra/dnscontrol
+          ref: gandi_v5-auth-changes
+          path: dnscontrol
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache-dependency-path: dnscontrol/go.sum
+
+      - name: Build dnscontrol
+        run: |
+          cd dnscontrol
+          go build
+          ./dnscontrol version
+          sudo install -Dm755 dnscontrol /usr/local/bin/dnscontrol
+
+      - name: Push changes
+        run:
+          dnscontrol push
+        env:
+          GANDI_TOKEN: ${{ secrets.GANDI_TOKEN }}
+          GANDIGR_TOKEN: ${{ secrets.GANDIGR_TOKEN }}
