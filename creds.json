@@ -1,0 +1,13 @@
+{
+  "dohdefault": {
+    "TYPE": "DNSOVERHTTPS"
+  },
+  "gandi": {
+    "TYPE": "GANDI_V5",
+    "token": "$GANDI_TOKEN",
+  },
+  "gandigr": {
+    "TYPE": "GANDI_V5",
+    "token": "$GANDIGR_TOKEN"
+  }
+}
