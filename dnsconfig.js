@@ -4,7 +4,6 @@ DEFAULTS(
 );
 
 var REG_MONITOR = NewRegistrar("dohdefault");
-var DNS_CLOUDNS = NewDnsProvider("cloudns");
 
 var REG_GANDI = NewRegistrar("gandi");
 var DNS_GANDI = NewDnsProvider("gandi");
