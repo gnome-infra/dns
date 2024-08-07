@@ -38,7 +38,6 @@ jobs:
           dnscontrol --no-colors preview | tee preview_output.txt
         env:
           GANDI_TOKEN: ${{ secrets.GANDI_TOKEN }}
-          GANDIGR_TOKEN: ${{ secrets.GANDIGR_TOKEN }}
 
       - name: Post preview to PR
         uses: actions/github-script@v6
