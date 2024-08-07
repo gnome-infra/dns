@@ -1,0 +1,11 @@
+D("flatpak.org", REG_GANDI,
+    DnsProvider(DNS_GANDI),
+    A("@", "8.43.85.3"),
+    A("@", "8.43.85.4"),
+    A("@", "8.43.85.5"),
+    MX("@", 10, "smtp.gnome.org."),
+    CNAME("docs", "readthedocs.io."),
+    CNAME("www", "router-default.apps.openshift4.gnome.org."),
+    TXT("@", "libera-iE!2PbqoQsUaDXkRDrbAX2_j"),
+    TXT("_github-challenge-flatpak-org", "917f6431b5"),
+    END);
