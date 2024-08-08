@@ -6,8 +6,8 @@
     "TYPE": "GANDI_V5",
     "token": "$GANDI_TOKEN",
   },
-  "gandigr": {
+  "gandi_es": {
     "TYPE": "GANDI_V5",
-    "token": "$GANDIGR_TOKEN"
+    "token": "$GANDI_ES_TOKEN"
   }
 }
