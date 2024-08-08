@@ -38,4 +38,3 @@ jobs:
           dnscontrol push
         env:
           GANDI_TOKEN: ${{ secrets.GANDI_TOKEN }}
-          GANDI_ES_TOKEN: ${{ secrets.GANDI_ES_TOKEN }}
