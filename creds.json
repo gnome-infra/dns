@@ -6,4 +6,9 @@
     "TYPE": "GANDI_V5",
     "token": "$GANDI_TOKEN",
   },
+  "cloudns": {
+    "TYPE": "CLOUDNS",
+    "auth-id": "$CLOUDNS_AUTH_ID",
+    "auth-password": "$CLOUDNS_AUTH_PASSWORD"
+  }
 }

@@ -38,3 +38,5 @@ jobs:
           dnscontrol push
         env:
           GANDI_TOKEN: ${{ secrets.GANDI_TOKEN }}
+          CLOUDNS_AUTH_ID: ${{ secrets.CLOUDNS_AUTH_ID }}
+          CLOUDNS_AUTH_PASSWORD: ${{ secrets.CLOUDNS_AUTH_PASSWORD }}
