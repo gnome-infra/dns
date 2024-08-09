@@ -20,8 +20,8 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          repository: gnome-infra/dnscontrol
-          ref: gandi_v5-auth-changes
+          repository: StackExchange/dnscontrol
+          ref: main
           path: dnscontrol
 
       - uses: actions/setup-go@v5
