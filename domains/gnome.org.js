@@ -10,7 +10,10 @@ D("gnome.org", REG_GANDI,
     AAAA("@", "2a04:4e42:200::347"),
     AAAA("@", "2a04:4e42:400::347"),
     AAAA("@", "2a04:4e42:600::347"),
+
+    // Verification(s)
     TXT("@", "google-site-verification=CERH6P8oe_jgCNAsVY7ZnHJba1Csf2hHJ779kJPtXKA"),
+    TXT("@", "MS=ms80787754"),
 
     A("ns-master", "8.43.85.21"),
     AAAA("ns-master", "2620:52:3:1:5054:ff:fec7:bbd0"),
