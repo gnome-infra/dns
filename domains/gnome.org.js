@@ -285,7 +285,6 @@ D("gnome.org", REG_GANDI,
 
     // ACME challenges
     CNAME("_acme-challenge.irc", "org.gnome.irc.le.libera.chat."),
-    CNAME("_acme-challenge", "nr30auvvvbz0ecswcu.fastly-validations.com."),
     CNAME("_acme-challenge.api-lb.openshift4", "kaeg7jvowakdptiik2.fastly-validations.com."),
     CNAME("_acme-challenge.pages.gitlab", "8trd9e2zeztt8cfs30.fastly-validations.com."),
     CNAME("_acme-challenge.planeta.es", "ftdf04vnjsgsvm7fsv.fastly-validations.com."),
