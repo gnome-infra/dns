@@ -21,6 +21,12 @@ D("gnome.org", REG_GANDI,
     AAAA("ns-slave", "2620:52:3:1:5054:ff:fe90:282b"),
     CNAME("ns2", "ns-slave.gnome.org."),
 
+    // Delegation(s)
+    NS("openshift", "ns-527.awsdns-01.net."),
+    NS("openshift", "ns-444.awsdns-55.com."),
+    NS("openshift", "ns-1565.awsdns-03.co.uk."),
+    NS("openshift", "ns-1149.awsdns-15.org."),
+
     // SPF
     TXT("@", "v=spf1 a:smtp.gnome.org -all"),
     TXT("smtp", "v=spf1 a:smtp.gnome.org -all"),
@@ -85,11 +91,6 @@ D("gnome.org", REG_GANDI,
     A("router-default.apps.openshift4", "8.43.85.3"),
     A("router-default.apps.openshift4", "8.43.85.4"),
     A("router-default.apps.openshift4", "8.43.85.5"),
-
-    // Old cluster domain for backwards compatibility
-    A("openshift", "8.43.85.3"),
-    A("openshift", "8.43.85.4"),
-    A("openshift", "8.43.85.5"),
 
     // Services deployed to OpenShift
     CNAME("*.bugzilla-attachments", "ocp-ingress.fastly.gnome.org."),
