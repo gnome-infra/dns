@@ -216,7 +216,6 @@ D("gnome.org", REG_GANDI,
     // MX records
     MX("cvs", 10, "smtp.gnome.org."),
     MX("svn", 10, "smtp.gnome.org."),
-    MX("openshift", 10, "smtp.gnome.org."),
     MX("router-default.apps.openshift4", 10, "smtp.gnome.org."),
     MX("ocp-ingress.fastly", 10, "smtp.gnome.org."),
 
