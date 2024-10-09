@@ -79,6 +79,7 @@ D("gnome.org", REG_GANDI,
     // FreeIPA
     A("idm01", "8.43.85.8"),
     A("idm02", "8.43.85.9"),
+    CNAME("idm", "IDM-1201390071.us-east-1.elb.amazonaws.com."),
 
     CNAME("_7b45e79a96a58d6c8d893a6c8144d2ce.idm", "_cf5f5afa9f01c2f76592fa301f7bde13.djqtsrsxkq.acm-validations.aws."),
 
