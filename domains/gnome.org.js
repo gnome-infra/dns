@@ -124,7 +124,6 @@ D("gnome.org", REG_GANDI,
     CNAME("nmcheck", "ocp-ingress.fastly.gnome.org."),
     CNAME("odrs", "1527653184.rsc.cdn77.org."),
     CNAME("os", "ocp-ingress.fastly.gnome.org."),
-    CNAME("pad", "ocp-ingress.fastly.gnome.org."),
     CNAME("password", "ocp-ingress.fastly.gnome.org."),
     CNAME("photos", "ocp-ingress.fastly.gnome.org."),
     CNAME("planet", "ocp-ingress.fastly.gnome.org."),
@@ -145,6 +144,7 @@ D("gnome.org", REG_GANDI,
 
     // OpenShift @ AWS
     CNAME("nominatim", "ingress.openshift.gnome.org."),
+    CNAME("pad", "ingress.openshift.gnome.org."),
     CNAME("paste", "ingress.openshift.gnome.org."),
 
     // Redirects
