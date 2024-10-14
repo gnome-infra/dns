@@ -102,11 +102,8 @@ D("gnome.org", REG_GANDI,
     A("router-default.apps.openshift4", "8.43.85.5"),
 
     // Services deployed to OpenShift
-    CNAME("*.bugzilla-attachments", "ocp-ingress.fastly.gnome.org."),
     CNAME("account", "ocp-ingress.fastly.gnome.org."),
     CNAME("auth1", "ocp-ingress.fastly.gnome.org."),
-    CNAME("bugzilla", "ocp-ingress.fastly.gnome.org."),
-    CNAME("bugzilla-attachments", "ocp-ingress.fastly.gnome.org."),
     CNAME("chat", "ocp-ingress.fastly.gnome.org."),
     CNAME("cloud", "router-default.apps.openshift4.gnome.org."),
     CNAME("conduct", "ocp-ingress.fastly.gnome.org."),
@@ -140,6 +137,9 @@ D("gnome.org", REG_GANDI,
     CNAME("www", "ocp-ingress.fastly.gnome.org."),
 
     // OpenShift @ AWS
+    CNAME("*.bugzilla-attachments", "ingress.openshift.gnome.org."),
+    CNAME("bugzilla", "ingress.openshift.gnome.org."),
+    CNAME("bugzilla-attachments", "ingress.openshift.gnome.org."),
     CNAME("cdn.bugzilla", "1342705358.rsc.cdn77.org."),
     CNAME("meet", "ingress.openshift.gnome.org."),
     CNAME("nominatim", "ingress.openshift.gnome.org."),
@@ -307,6 +307,5 @@ D("gnome.org", REG_GANDI,
     CNAME("_acme-challenge.planeta.br", "8pbiegbfnhuy46040d.fastly-validations.com."),
     CNAME("_acme-challenge.tools.design", "h014rtn95g0yn5d1rr.fastly-validations.com."),
     CNAME("_acme-challenge.www.es", "1j07im5xepdd14mfwy.fastly-validations.com."),
-    CNAME("_acme-challenge.bugzilla-attachments", "jzpw3klc63jle0uu0j.fastly-validations.com."),
     CNAME("_acme-challenge.registry.gitlab", "yngfml7re7k4skhmrg.fastly-validations.com."),
     END);
