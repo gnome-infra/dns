@@ -140,6 +140,7 @@ D("gnome.org", REG_GANDI,
     CNAME("www", "ocp-ingress.fastly.gnome.org."),
 
     // OpenShift @ AWS
+    CNAME("cdn.bugzilla", "1342705358.rsc.cdn77.org."),
     CNAME("meet", "ingress.openshift.gnome.org."),
     CNAME("nominatim", "ingress.openshift.gnome.org."),
     CNAME("pad", "ingress.openshift.gnome.org."),
