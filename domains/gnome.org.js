@@ -134,6 +134,7 @@ D("gnome.org", REG_GANDI,
     CNAME("www", "ocp-ingress.fastly.gnome.org."),
 
     // OpenShift @ AWS
+    CNAME("blogs", "ingress.openshift.gnome.org."),
     CNAME("bugzilla", "ingress.openshift.gnome.org."),
     CNAME("discourse", "ingress.openshift.gnome.org."),
     CNAME("meet", "ingress.openshift.gnome.org."),
@@ -175,7 +176,6 @@ D("gnome.org", REG_GANDI,
 
     // Custom domains for GitLab Pages
     CNAME("apps", "ocp-ingress.fastly.gnome.org."),
-    CNAME("blogs", "ocp-ingress.fastly.gnome.org."),
     CNAME("br", "ocp-ingress.fastly.gnome.org."),
     CNAME("brand", "ocp-ingress.fastly.gnome.org."),
     CNAME("cantarell", "ocp-ingress.fastly.gnome.org."),
