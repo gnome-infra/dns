@@ -72,9 +72,6 @@ D("gnome.org", REG_GANDI,
     // Virtual machines (RDU2)
     A("smtp", "8.43.85.24"),
     AAAA("smtp", "2620:52:3:1:5054:ff:fef4:6212"),
-    A("nsd01", "8.43.85.21"),
-    A("nsd02", "8.43.85.6"),
-    A("notirc", "8.43.85.28"),
 
     // FreeIPA
     A("idm01", "8.43.85.8"),
@@ -200,8 +197,6 @@ D("gnome.org", REG_GANDI,
     A("bastion02", "98.83.131.224"),
     A("vpn", "8.43.85.20"),
     CNAME("smtp-int", "smtp.gnome.org."),
-    CNAME("ceph-dashboard", "ocp-ingress.fastly.gnome.org."),
-    CNAME("ceph-metrics", "ocp-ingress.fastly.gnome.org."),
     CNAME("grafana", "ocp-ingress.fastly.gnome.org."),
 
     // Fastly
