@@ -133,7 +133,7 @@ D("gnome.org", REG_GANDI,
     CNAME("sso", "ingress.openshift.gnome.org."),
     CNAME("webstats", "ingress.openshift.gnome.org."),
     CNAME("wiki", "1876207943.rsc.cdn77.org."),
-    CNAME("www", "ocp-ingress.fastly.gnome.org."),
+    CNAME("www", "ingress.openshift.gnome.org."),
 
     // Redirects
     CNAME("api", "ocp-ingress.fastly.gnome.org."),
