@@ -2,14 +2,6 @@ D("gnome.org", REG_GANDI,
     DnsProvider(DNS_CLOUDNS),
 
     MX("@", 10, "smtp.gnome.org."),
-    A("@", "151.101.1.91"),
-    A("@", "151.101.129.91"),
-    A("@", "151.101.193.91"),
-    A("@", "151.101.65.91"),
-    AAAA("@", "2a04:4e42::347"),
-    AAAA("@", "2a04:4e42:200::347"),
-    AAAA("@", "2a04:4e42:400::347"),
-    AAAA("@", "2a04:4e42:600::347"),
 
     // Verification(s)
     TXT("@", "google-site-verification=CERH6P8oe_jgCNAsVY7ZnHJba1Csf2hHJ779kJPtXKA"),
@@ -124,9 +116,9 @@ D("gnome.org", REG_GANDI,
     CNAME("view", "ocp-ingress.fastly.gnome.org."),
     CNAME("vote", "ocp-ingress.fastly.gnome.org."),
     CNAME("webmail", "ocp-ingress.fastly.gnome.org."),
-    CNAME("www", "ocp-ingress.fastly.gnome.org."),
 
     // OpenShift @ AWS
+    ALIAS("@", "ingress.openshift.gnome.org."),
     CNAME("blogs", "ingress.openshift.gnome.org."),
     CNAME("bugzilla", "ingress.openshift.gnome.org."),
     CNAME("conduct", "ingress.openshift.gnome.org."),
@@ -141,6 +133,7 @@ D("gnome.org", REG_GANDI,
     CNAME("sso", "ingress.openshift.gnome.org."),
     CNAME("webstats", "ingress.openshift.gnome.org."),
     CNAME("wiki", "1876207943.rsc.cdn77.org."),
+    CNAME("www", "ocp-ingress.fastly.gnome.org."),
 
     // Redirects
     CNAME("api", "ocp-ingress.fastly.gnome.org."),
