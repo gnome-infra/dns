@@ -1,5 +1,6 @@
 D("gnome.org", REG_GANDI,
     DnsProvider(DNS_CLOUDNS),
+    DefaultTTL('1h'),
 
     MX("@", 10, "smtp.gnome.org."),
 
