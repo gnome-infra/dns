@@ -1,7 +1,8 @@
 D("flatpak.org", REG_GANDI,
     DnsProvider(DNS_GANDI),
-    A("@", "3.208.234.181"),
-    A("@", "34.226.34.126"),
+    DefaultTTL('1h'),
+    ALIAS("@", "www.flatpak.org.),
+
     MX("@", 10, "smtp.gnome.org."),
     CNAME("docs", "readthedocs.io."),
     CNAME("www", "ingress.openshift.gnome.org."),
