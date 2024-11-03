@@ -1,7 +1,7 @@
 D("gimp.net", REG_MONITOR,
     DnsProvider(DNS_CLOUDNS),
     DefaultTTL('1h'),
-    ALIAS("@", "www.gimp.org.),
+    ALIAS("@", "www.gimp.org."),
     MX("@", 10, "smtp.gnome.org."),
     CNAME("irc", "irc.gimp.org."),
     CNAME("www", "www.gimp.org."),

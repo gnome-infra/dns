@@ -1,7 +1,7 @@
 D("gimp.org", REG_MONITOR,
     DnsProvider(DNS_CLOUDNS),
     DefaultTTL('1h'),
-    ALIAS("@", "www.gimp.org.),
+    ALIAS("@", "www.gimp.org."),
     MX("@", 10, "smtp.gnome.org."),
     TXT("@", "v=spf1 a:smtp.gnome.org -all"),
     CNAME("www", "ingress.openshift.gnome.org."),
