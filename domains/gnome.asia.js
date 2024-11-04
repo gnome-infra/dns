@@ -43,7 +43,7 @@ D("gnome.asia", REG_GANDI,
     A("2015", "34.215.195.175"),
     CNAME("2018", "gnome-asia.github.io."),
     CNAME("2019", "gnome-asia.github.io."),
-    CNAME("2020", "router-default.apps.openshift4.gnome.org."),
+    CNAME("2020", "ingress.openshift.gnome.org."),
     CNAME("google3ead69f8239dfb8a", "google.com."),
     TXT("@", "github-verification=a7zjTstjyQXRYw49sP6CxDCMF4BGKTGqdZWQGIRDER"),
     END);
