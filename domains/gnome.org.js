@@ -277,6 +277,7 @@ D("gnome.org", REG_GANDI,
     // International websites
     CNAME("cz", "ingress.openshift.gnome.org."),
     CNAME("in", "ingress.openshift.gnome.org."),
+    CNAME("gr", "ingress.openshift.gnome.org."),
 
     // IRC alias
     CNAME("irc", "irc.libera.chat."),
