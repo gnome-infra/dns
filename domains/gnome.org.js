@@ -189,7 +189,6 @@ D("gnome.org", REG_GANDI,
     A("bastion02", "98.83.131.224"),
     A("vpn", "8.43.85.20"),
     CNAME("smtp-int", "smtp.gnome.org."),
-    CNAME("grafana", "ocp-ingress.fastly.gnome.org."),
 
     // Fastly
     A("ocp-ingress.fastly", "151.101.1.91"),
@@ -214,6 +213,7 @@ D("gnome.org", REG_GANDI,
     MX("svn", 10, "smtp.gnome.org."),
     MX("router-default.apps.openshift4", 10, "smtp.gnome.org."),
     MX("ocp-ingress.fastly", 10, "smtp.gnome.org."),
+    MX("ingress.openshift", 10, "smtp.gnome.org."),
 
     // SSHFP entries
     SSHFP("master", 1, 1, "04a581f274785ddb28b97686ddc17265a131cc1e"),
