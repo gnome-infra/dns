@@ -264,7 +264,7 @@ D("gnome.org", REG_GANDI,
     CNAME("ostree", "1029332277.rsc.cdn77.org."),
 
     // CDN
-    CNAME("download", "1673558209.rsc.cdn77.org"),
+    CNAME("download", "1673558209.rsc.cdn77.org."),
     CNAME("static", "1009550802.rsc.cdn77.org."),
     CNAME("www-old", "1009550802.rsc.cdn77.org."),
 
