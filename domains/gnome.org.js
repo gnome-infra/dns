@@ -89,7 +89,6 @@ D("gnome.org", REG_GANDI,
     // Services deployed to OpenShift
     CNAME("auth1", "ocp-ingress.fastly.gnome.org."),
     CNAME("cloud", "router-default.apps.openshift4.gnome.org."),
-    CNAME("download", "ocp-ingress.fastly.gnome.org."),
     CNAME("extensions", "ocp-ingress.fastly.gnome.org."),
     CNAME("extensions-next", "ocp-ingress.fastly.gnome.org."),
     CNAME("help", "ocp-ingress.fastly.gnome.org."),
@@ -265,7 +264,7 @@ D("gnome.org", REG_GANDI,
     CNAME("ostree", "1029332277.rsc.cdn77.org."),
 
     // CDN
-    CNAME("download-fallback", "1586190840.rsc.cdn77.org."),
+    CNAME("download", "1673558209.rsc.cdn77.org."),
     CNAME("static", "1009550802.rsc.cdn77.org."),
     CNAME("www-old", "1009550802.rsc.cdn77.org."),
 
