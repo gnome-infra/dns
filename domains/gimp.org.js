@@ -50,5 +50,4 @@ D("gimp.org", REG_MONITOR,
     A("i.just.love.the", "128.101.240.213"),
     A("bring.out.the", "128.101.240.213"),
     CNAME("_9c633c198c56963d60a463b4c5b07218.irc", "E49A603558A818092A9DECA64206B3E0.C18CBE81EF404B545484A1551A9CF225.ff23707fd0625ccdfb4f.sectigo.com."),
-    CNAME("_acme-challenge", "ny5lrl2akt2db9vzhr.fastly-validations.com."),
     END);
