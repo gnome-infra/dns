@@ -2,17 +2,9 @@ D("gnome.org", REG_GANDI,
     DnsProvider(DNS_CLOUDNS),
     DefaultTTL('1h'),
 
-    MX("@", 10, "smtp.gnome.org."),
-
     // Verification(s)
     TXT("@", "google-site-verification=CERH6P8oe_jgCNAsVY7ZnHJba1Csf2hHJ779kJPtXKA"),
     TXT("@", "MS=ms80787754"),
-
-    A("ns-master", "8.43.85.21"),
-    AAAA("ns-master", "2620:52:3:1:5054:ff:fec7:bbd0"),
-    A("ns-slave", "8.43.85.6"),
-    AAAA("ns-slave", "2620:52:3:1:5054:ff:fe90:282b"),
-    CNAME("ns2", "ns-slave.gnome.org."),
 
     // Delegation(s)
     NS("openshift", "ns-527.awsdns-01.net."),
@@ -28,8 +20,6 @@ D("gnome.org", REG_GANDI,
     TXT("ceph03", "v=spf1 a:smtp.gnome.org -all"),
     TXT("bastion01", "v=spf1 a:smtp.gnome.org -all"),
     TXT("bastion02", "v=spf1 a:smtp.gnome.org -all"),
-    TXT("nsd01", "v=spf1 a:smtp.gnome.org -all"),
-    TXT("nsd02", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm01", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm02", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm03", "v=spf1 a:smtp.gnome.org -all"),
@@ -174,7 +164,7 @@ D("gnome.org", REG_GANDI,
     CNAME("tracker.api", "ingress.openshift.gnome.org."),
     CNAME("welcome", "ingress.openshift.gnome.org."),
 
-    // Sysadmin turf
+    // Sysadmin
     A("bastion", "8.43.85.20"),
     A("bastion01", "8.43.85.20"),
     A("bastion02", "98.83.131.224"),
@@ -199,6 +189,7 @@ D("gnome.org", REG_GANDI,
     SRV("_matrix._tcp", 10, 5, 443, "gnome.modular.im."),
 
     // MX records
+    MX("@", 10, "smtp.gnome.org."),
     MX("cvs", 10, "smtp.gnome.org."),
     MX("svn", 10, "smtp.gnome.org."),
     MX("router-default.apps.openshift4", 10, "smtp.gnome.org."),
