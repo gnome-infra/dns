@@ -226,6 +226,7 @@ D("gnome.org", REG_GANDI,
     NS("pages.gitlab", "ns-1725.awsdns-23.co.uk."),
     NS("pages.gitlab", "ns-1004.awsdns-61.net."),
     NS("pages.gitlab", "ns-1514.awsdns-61.org."),
+    DS("pages.gitlab", 65413, 13, 2, "AD22765C9599CBACDD5EB15959B343E9C1206BE6282A7F868823935EAFCDC933"),
 
     A("openqa", "206.189.11.200"),
 
