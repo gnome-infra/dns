@@ -11,6 +11,7 @@ D("gnome.org", REG_GANDI,
     NS("openshift", "ns-444.awsdns-55.com."),
     NS("openshift", "ns-1565.awsdns-03.co.uk."),
     NS("openshift", "ns-1149.awsdns-15.org."),
+    DS("openshift", 65413, 13, 2, "0431E5213EC93739217B7BE1E96450FB2091794881F9B14B31586E5C2D4BF6B1"),
 
     // SPF
     TXT("@", "v=spf1 a:smtp.gnome.org -all"),
