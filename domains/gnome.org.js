@@ -217,11 +217,10 @@ D("gnome.org", REG_GANDI,
     SSHFP("ssh.gitlab", 4, 2, "63d1b87568887e2e772d1dc89c95ac21bbf895e9141e89eafc7aea4d39bfadcc"),
 
     // GitLab
-    CNAME("gitlab", "ocp-ingress.fastly.gnome.org."),
-    CNAME("registry.gitlab", "ocp-ingress.fastly.gnome.org."),
+    CNAME("gitlab", "ingress.openshift.gnome.org."),
+    CNAME("registry.gitlab", "ingress.openshift.gnome.org."),
     CNAME("67d392e4f86e8049013c4e9b216cffbe.gitlab", "verify.bing.com."),
-    A("ssh.gitlab", "8.43.85.27"),
-    AAAA("ssh.gitlab", "2620:52:3:1:5054:ff:fe8f:413d"),
+    A("ssh.gitlab", "98.83.181.181"),
 
     NS("pages.gitlab", "ns-270.awsdns-33.com."),
     NS("pages.gitlab", "ns-1725.awsdns-23.co.uk."),
@@ -271,5 +270,4 @@ D("gnome.org", REG_GANDI,
 
     // ACME challenges
     CNAME("_acme-challenge.irc", "org.gnome.irc.le.libera.chat."),
-    CNAME("_acme-challenge.registry.gitlab", "yngfml7re7k4skhmrg.fastly-validations.com."),
     END);
