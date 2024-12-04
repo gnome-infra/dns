@@ -29,7 +29,6 @@ D("gnome.org", REG_GANDI,
     TXT("logs", "v=spf1 a:smtp.gnome.org -all"),
     TXT("gitlab-git-svcs", "v=spf1 a:smtp.gnome.org -all"),
     TXT("router-default.apps.openshift4", "v=spf1 a:smtp.gnome.org -all"),
-    TXT("ocp-ingress.fastly", "v=spf1 a:smtp.gnome.org -all"),
     TXT("ingress.openshift", "v=spf1 a:smtp.gnome.org -all"),
 
     // DKIM & DMARC
@@ -77,15 +76,15 @@ D("gnome.org", REG_GANDI,
     A("router-default.apps.openshift4", "8.43.85.5"),
 
     // Services deployed to OpenShift
-    CNAME("auth1", "ocp-ingress.fastly.gnome.org."),
+    CNAME("auth1", "router-default.apps.openshift4.gnome.org."),
     CNAME("cloud", "router-default.apps.openshift4.gnome.org."),
-    CNAME("extensions", "ocp-ingress.fastly.gnome.org."),
-    CNAME("extensions-next", "ocp-ingress.fastly.gnome.org."),
-    CNAME("listmonk", "ocp-ingress.fastly.gnome.org."),
-    CNAME("surveys", "ocp-ingress.fastly.gnome.org."),
-    CNAME("tileserver", "ocp-ingress.fastly.gnome.org."),
-    CNAME("vote", "ocp-ingress.fastly.gnome.org."),
-    CNAME("webmail", "ocp-ingress.fastly.gnome.org."),
+    CNAME("extensions", "router-default.apps.openshift4.gnome.org."),
+    CNAME("extensions-next", "router-default.apps.openshift4.gnome.org."),
+    CNAME("listmonk", "router-default.apps.openshift4.gnome.org."),
+    CNAME("surveys", "router-default.apps.openshift4.gnome.org."),
+    CNAME("tileserver", "router-default.apps.openshift4.gnome.org."),
+    CNAME("vote", "router-default.apps.openshift4.gnome.org."),
+    CNAME("webmail", "router-default.apps.openshift4.gnome.org."),
 
     // OpenShift @ AWS
     ALIAS("@", "ingress.openshift.gnome.org."),
@@ -171,16 +170,6 @@ D("gnome.org", REG_GANDI,
     A("bastion02", "98.83.131.224"),
     A("vpn", "8.43.85.20"),
 
-    // Fastly
-    A("ocp-ingress.fastly", "151.101.1.91"),
-    A("ocp-ingress.fastly", "151.101.129.91"),
-    A("ocp-ingress.fastly", "151.101.193.91"),
-    A("ocp-ingress.fastly", "151.101.65.91"),
-    AAAA("ocp-ingress.fastly", "2a04:4e42::347"),
-    AAAA("ocp-ingress.fastly", "2a04:4e42:200::347"),
-    AAAA("ocp-ingress.fastly", "2a04:4e42:400::347"),
-    AAAA("ocp-ingress.fastly", "2a04:4e42:600::347"),
-
     // Mail
     CNAME("mail", "1222440682.rsc.cdn77.org."),
     CNAME("lists", "1222440682.rsc.cdn77.org."),
@@ -194,7 +183,6 @@ D("gnome.org", REG_GANDI,
     MX("cvs", 10, "smtp.gnome.org."),
     MX("svn", 10, "smtp.gnome.org."),
     MX("router-default.apps.openshift4", 10, "smtp.gnome.org."),
-    MX("ocp-ingress.fastly", 10, "smtp.gnome.org."),
 
     // SSHFP entries
     SSHFP("master", 1, 1, "04a581f274785ddb28b97686ddc17265a131cc1e"),
