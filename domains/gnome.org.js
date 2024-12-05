@@ -220,7 +220,6 @@ D("gnome.org", REG_GANDI,
 
     // Virtual machines at OSUOSL
     A("signal", "140.211.167.18"),
-    CNAME("nagios", "signal.gnome.org."),
     CNAME("status", "signal.gnome.org."),
 
     // gnome-build-meta x86_64 runner and aux services
