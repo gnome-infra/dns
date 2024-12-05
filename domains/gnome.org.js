@@ -83,7 +83,6 @@ D("gnome.org", REG_GANDI,
     CNAME("listmonk", "router-default.apps.openshift4.gnome.org."),
     CNAME("surveys", "router-default.apps.openshift4.gnome.org."),
     CNAME("vote", "router-default.apps.openshift4.gnome.org."),
-    CNAME("webmail", "router-default.apps.openshift4.gnome.org."),
 
     // OpenShift @ AWS
     ALIAS("@", "ingress.openshift.gnome.org."),
