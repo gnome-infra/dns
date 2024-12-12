@@ -167,7 +167,7 @@ D("gnome.org", REG_GANDI,
     SSHFP("bastion02", 3, 1, "137817cd1c01b950190208df27597da197a891ac"),
     SSHFP("bastion02", 3, 2, "50e998ed170a42c9845ae1616c1cd8a8181e073bc9de075ee820e541d5234f0a"),
     SSHFP("bastion02", 4, 1, "37ea8715fa6cd8c1fbbf50aa0447ae290db8d81c"),
-    SSHFP("bastion02", 4, 2, "c1e97934f25ec8fff19dc98a03e0aab3893cc7f32c7984ec3c43db172a132c88")
+    SSHFP("bastion02", 4, 2, "c1e97934f25ec8fff19dc98a03e0aab3893cc7f32c7984ec3c43db172a132c88"),
     SSHFP("ssh.gitlab", 1, 1, "9d319c15965b939bc2086cbebca96d8bbb89e9a3"),
     SSHFP("ssh.gitlab", 1, 2, "591469a16a3bb33333c2591815e2e88f4508b665477c023eafe845833c060118"),
     SSHFP("ssh.gitlab", 3, 1, "17b29179778339d7c91cb2c281b7afa2798c61d5"),
