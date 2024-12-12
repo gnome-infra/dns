@@ -227,5 +227,5 @@ D("gnome.org", REG_GANDI,
 
     // ACME challenges
     CNAME("_acme-challenge.irc", "org.gnome.irc.le.libera.chat."),
-    CNAME("_acme-challenge.nmcheck", "g7q0za0s6hoy2sswcb.fastly-validations.com"),
+    CNAME("_acme-challenge.nmcheck", "g7q0za0s6hoy2sswcb.fastly-validations.com."),
     END);
