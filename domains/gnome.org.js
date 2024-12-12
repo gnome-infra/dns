@@ -19,7 +19,6 @@ D("gnome.org", REG_GANDI,
     TXT("bastion02", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm03", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm04", "v=spf1 a:smtp.gnome.org -all"),
-    TXT("gitlab-git-svcs", "v=spf1 a:smtp.gnome.org -all"),
     TXT("ingress.openshift", "v=spf1 a:smtp.gnome.org -all"),
 
     // DKIM & DMARC
@@ -146,10 +145,8 @@ D("gnome.org", REG_GANDI,
     CNAME("welcome", "ingress.openshift.gnome.org."),
 
     // Sysadmin
-    A("bastion", "8.43.85.20"),
     A("bastion01", "8.43.85.20"),
     A("bastion02", "98.83.131.224"),
-    A("vpn", "8.43.85.20"),
 
     // Mail
     CNAME("mail", "1222440682.rsc.cdn77.org."),
@@ -163,21 +160,14 @@ D("gnome.org", REG_GANDI,
     MX("@", 10, "smtp.gnome.org."),
     MX("cvs", 10, "smtp.gnome.org."),
     MX("svn", 10, "smtp.gnome.org."),
-    MX("router-default.apps.openshift4", 10, "smtp.gnome.org."),
 
     // SSHFP entries
-    SSHFP("master", 1, 1, "04a581f274785ddb28b97686ddc17265a131cc1e"),
-    SSHFP("master", 1, 2, "0abe16b85a3ec5530b363921c7e1a0a1a42fb0910a46f4a73711ee27fcb5ea7b"),
-    SSHFP("master", 3, 1, "e63b06f28f137c843e94fff5755facff5c94c09b"),
-    SSHFP("master", 3, 2, "825c3b7c7628112f1b0532486ba479d4986347e1aeaa50455edf84ece2216db4"),
-    SSHFP("master", 4, 1, "d416429f976a151fc71748e75e33d316bb0afe56"),
-    SSHFP("master", 4, 2, "b8b2d4e271a941e0cfa8b336f1e1bb74c899cb645e0ca93e2f16ccf4218d4d0e"),
-    SSHFP("bastion", 1, 1, "5137d54ef783e72caa154f5e987446ccdb1d98f6"),
-    SSHFP("bastion", 1, 2, "5340a918e8a7bfd284741214f8650ce44521a034d996acd3b969651e80588a0f"),
-    SSHFP("bastion", 3, 1, "87af28168b3b0334f708c86211b1c3462e5db939"),
-    SSHFP("bastion", 3, 2, "c16222c65681c34d1f00e07957a63bbaa49f90ccf06bff686b7ac1962dc99268"),
-    SSHFP("bastion", 4, 1, "3778675b0105dfde4e42d7e47b5378d6f7ccb492"),
-    SSHFP("bastion", 4, 2, "7220362106d18c5c4f49047e5d38d8f901affa61dcdfe0f2fc45f1bad3942955"),
+    SSHFP("bastion02", 1, 1, "aac50ca7d7ec601d4a76daef4020cecd052af915"),
+    SSHFP("bastion02", 1, 2, "f2ed6feb9cfac152fba01ec4d76370388a7860d3de579443f9f81647ca7cb1d2"),
+    SSHFP("bastion02", 3, 1, "137817cd1c01b950190208df27597da197a891ac"),
+    SSHFP("bastion02", 3, 2, "50e998ed170a42c9845ae1616c1cd8a8181e073bc9de075ee820e541d5234f0a"),
+    SSHFP("bastion02", 4, 1, "37ea8715fa6cd8c1fbbf50aa0447ae290db8d81c"),
+    SSHFP("bastion02", 4, 2, "c1e97934f25ec8fff19dc98a03e0aab3893cc7f32c7984ec3c43db172a132c88")
     SSHFP("ssh.gitlab", 1, 1, "9d319c15965b939bc2086cbebca96d8bbb89e9a3"),
     SSHFP("ssh.gitlab", 1, 2, "591469a16a3bb33333c2591815e2e88f4508b665477c023eafe845833c060118"),
     SSHFP("ssh.gitlab", 3, 1, "17b29179778339d7c91cb2c281b7afa2798c61d5"),
@@ -209,8 +199,7 @@ D("gnome.org", REG_GANDI,
     CNAME("onlyoffice.cloud", "m3-large-x86.gnome.org."),
 
     // Master FTP server
-    A("master", "8.43.85.16"),
-    A("ftp-master", "8.43.85.16"),
+    CNAME("master", "master.gimp.org."),
 
     // BigBlueButton
     A("bbb", "147.75.102.91"),
