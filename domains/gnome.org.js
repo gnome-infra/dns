@@ -77,7 +77,6 @@ D("gnome.org", REG_GANDI,
     CNAME("l10n", "ingress.openshift.gnome.org."),
     CNAME("meet", "ingress.openshift.gnome.org."),
     CNAME("mutter", "ingress.openshift.gnome.org."),
-    A("nmcheck", "54.82.185.92"),
     CNAME("nominatim", "ingress.openshift.gnome.org."),
     CNAME("odrs", "1527653184.rsc.cdn77.org."),
     CNAME("os", "ingress.openshift.gnome.org."),
@@ -143,6 +142,9 @@ D("gnome.org", REG_GANDI,
     CNAME("tracker", "ingress.openshift.gnome.org."),
     CNAME("tracker.api", "ingress.openshift.gnome.org."),
     CNAME("welcome", "ingress.openshift.gnome.org."),
+
+    // Fastly
+    CNAME("nmcheck", "dualstack.n.sni.global.fastly.net."),
 
     // Sysadmin
     A("bastion01", "8.43.85.20"),
