@@ -59,8 +59,6 @@ D("gnome.org", REG_GANDI,
     // Services deployed to OpenShift
     CNAME("auth1", "router-default.apps.openshift4.gnome.org."),
     CNAME("cloud", "router-default.apps.openshift4.gnome.org."),
-    CNAME("extensions", "router-default.apps.openshift4.gnome.org."),
-    CNAME("extensions-next", "router-default.apps.openshift4.gnome.org."),
     CNAME("surveys", "router-default.apps.openshift4.gnome.org."),
 
     // OpenShift @ AWS
@@ -70,6 +68,7 @@ D("gnome.org", REG_GANDI,
     CNAME("conduct", "ingress.openshift.gnome.org."),
     CNAME("discourse", "ingress.openshift.gnome.org."),
     CNAME("events", "ingress.openshift.gnome.org."),
+    CNAME("extensions", "ingress.openshift.gnome.org."),
     CNAME("foundation", "ingress.openshift.gnome.org."),
     CNAME("gjs-docs", "ingress.openshift.gnome.org."),
     CNAME("help", "ingress.openshift.gnome.org."),
