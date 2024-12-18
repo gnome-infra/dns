@@ -19,7 +19,7 @@ D("gnome.org", REG_GANDI,
     TXT("bastion02", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm03", "v=spf1 a:smtp.gnome.org -all"),
     TXT("idm04", "v=spf1 a:smtp.gnome.org -all"),
-    TXT("ingress.openshift", "v=spf1 a:smtp.gnome.org -all"),
+    TXT("signal", "v=spf1 a:smtp.gnome.org -all"),
 
     // DKIM & DMARC
     TXT("default._domainkey", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
@@ -27,6 +27,7 @@ D("gnome.org", REG_GANDI,
     TXT("default._domainkey.idm03", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
     TXT("default._domainkey.idm04", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
     TXT("default._domainkey.src", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
+    TXT("default._domainkey.signal", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
     TXT("_dmarc", "v=DMARC1; p=reject; adkim=s; aspf=s;"),
 
     // Virtual machines (RDU2)
@@ -159,8 +160,6 @@ D("gnome.org", REG_GANDI,
 
     // MX records
     MX("@", 10, "smtp.gnome.org."),
-    MX("cvs", 10, "smtp.gnome.org."),
-    MX("svn", 10, "smtp.gnome.org."),
 
     // SSHFP entries
     SSHFP("bastion02", 1, 1, "aac50ca7d7ec601d4a76daef4020cecd052af915"),
