@@ -59,13 +59,14 @@ D("gnome.org", REG_GANDI,
 
     // Services deployed to OpenShift
     CNAME("auth1", "router-default.apps.openshift4.gnome.org."),
-    CNAME("cloud", "router-default.apps.openshift4.gnome.org."),
+    CNAME("oldcloud", "router-default.apps.openshift4.gnome.org."),
     CNAME("surveys", "router-default.apps.openshift4.gnome.org."),
 
     // OpenShift @ AWS
     ALIAS("@", "ingress.openshift.gnome.org."),
     CNAME("blogs", "ingress.openshift.gnome.org."),
     CNAME("bugzilla", "ingress.openshift.gnome.org."),
+    CNAME("cloud", "ingress.openshift.gnome.org."),
     CNAME("conduct", "ingress.openshift.gnome.org."),
     CNAME("discourse", "ingress.openshift.gnome.org."),
     CNAME("events", "ingress.openshift.gnome.org."),
