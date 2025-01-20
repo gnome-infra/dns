@@ -209,9 +209,7 @@ D("gnome.org", REG_GANDI,
 
     // GNOME Nightly
     A("flat-manager", "3.249.48.21"),
-    A("flat-manager-ostree", "3.249.48.21"),
     CNAME("nightly", "1692472846.rsc.cdn77.org."),
-    CNAME("ostree", "1029332277.rsc.cdn77.org."),
 
     // CDN
     CNAME("download", "1673558209.rsc.cdn77.org."),
