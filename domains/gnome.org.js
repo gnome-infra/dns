@@ -176,6 +176,9 @@ D("gnome.org", REG_GANDI,
     CNAME("minio", "m3-large-x86.gnome.org."),
     CNAME("onlyoffice.cloud", "m3-large-x86.gnome.org."),
 
+    // Master FTP server
+    CNAME("master", "master.gimp.org."),
+
     // BigBlueButton
     A("bbb", "147.75.102.91"),
     A("bbb2", "136.144.48.245"),
