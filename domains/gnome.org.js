@@ -65,7 +65,7 @@ D("gnome.org", REG_GANDI,
     // OpenShift @ AWS
     ALIAS("@", "ingress.openshift.gnome.org."),
     CNAME("blogs", "ingress.openshift.gnome.org."),
-    CNAME("bugzilla", "ingress.openshift.gnome.org."),
+    CNAME("bugzilla", "1342705358.rsc.cdn77.org."),
     CNAME("cloud", "ingress.openshift.gnome.org."),
     CNAME("conduct", "ingress.openshift.gnome.org."),
     CNAME("discourse", "ingress.openshift.gnome.org."),
