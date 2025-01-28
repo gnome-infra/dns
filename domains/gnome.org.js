@@ -40,28 +40,6 @@ D("gnome.org", REG_GANDI,
     CNAME("idm", "IDM-1201390071.us-east-1.elb.amazonaws.com."),
     CNAME("_7b45e79a96a58d6c8d893a6c8144d2ce.idm", "_cf5f5afa9f01c2f76592fa301f7bde13.djqtsrsxkq.acm-validations.aws."),
 
-    // OpenShift 4
-    A("master1.openshift4", "8.43.85.3"),
-    A("master2.openshift4", "8.43.85.4"),
-    A("master3.openshift4", "8.43.85.5"),
-    A("api.openshift4", "8.43.85.3"),
-    A("api.openshift4", "8.43.85.4"),
-    A("api.openshift4", "8.43.85.5"),
-    A("apps.openshift4", "8.43.85.3"),
-    A("apps.openshift4", "8.43.85.4"),
-    A("apps.openshift4", "8.43.85.5"),
-    A("*.apps.openshift4", "8.43.85.3"),
-    A("*.apps.openshift4", "8.43.85.4"),
-    A("*.apps.openshift4", "8.43.85.5"),
-    A("router-default.apps.openshift4", "8.43.85.3"),
-    A("router-default.apps.openshift4", "8.43.85.4"),
-    A("router-default.apps.openshift4", "8.43.85.5"),
-
-    // Services deployed to OpenShift
-    CNAME("auth1", "router-default.apps.openshift4.gnome.org."),
-    CNAME("oldcloud", "router-default.apps.openshift4.gnome.org."),
-    CNAME("surveys", "router-default.apps.openshift4.gnome.org."),
-
     // OpenShift @ AWS
     ALIAS("@", "ingress.openshift.gnome.org."),
     CNAME("blogs", "ingress.openshift.gnome.org."),
@@ -148,7 +126,6 @@ D("gnome.org", REG_GANDI,
     CNAME("nmcheck", "dualstack.n.sni.global.fastly.net."),
 
     // Sysadmin
-    A("bastion01", "8.43.85.20"),
     A("bastion02", "98.83.131.224"),
 
     // Mail
@@ -198,9 +175,6 @@ D("gnome.org", REG_GANDI,
     A("m3-large-x86", "147.28.151.79"),
     CNAME("minio", "m3-large-x86.gnome.org."),
     CNAME("onlyoffice.cloud", "m3-large-x86.gnome.org."),
-
-    // Master FTP server
-    CNAME("master", "master.gimp.org."),
 
     // BigBlueButton
     A("bbb", "147.75.102.91"),
