@@ -101,6 +101,7 @@ D("gnome.org", REG_GANDI,
     CNAME("pygtk", "ingress.openshift.gnome.org."),
 
     // Custom domains for GitLab Pages
+    CNAME("api.pygobject", "ingress.openshift.gnome.org."),
     CNAME("apps", "ingress.openshift.gnome.org."),
     CNAME("br", "ingress.openshift.gnome.org."),
     CNAME("brand", "ingress.openshift.gnome.org."),
