@@ -184,6 +184,7 @@ D("gnome.org", REG_GANDI,
     A("bbb", "147.75.102.91"),
     A("bbb2", "136.144.48.245"),
     A("turn", "147.28.151.230"),
+    A("bbb3", "8.43.85.20"),
 
     // GNOME Nightly
     A("flat-manager", "3.249.48.21"),
