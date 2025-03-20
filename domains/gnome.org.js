@@ -172,10 +172,12 @@ D("gnome.org", REG_GANDI,
     A("signal", "140.211.167.18"),
     CNAME("status", "signal.gnome.org."),
 
-    // gnome-build-meta x86_64 runner and aux services
+    // gnome-build-meta and aux services
     A("m3-large-x86", "147.28.151.79"),
     CNAME("minio", "m3-large-x86.gnome.org."),
     CNAME("onlyoffice.cloud", "m3-large-x86.gnome.org."),
+    A("gbm", "8.43.85.21"),
+    CNAME("onlyoffice.gbm", "gbm.gnome.org."),
 
     // Master FTP server
     CNAME("master", "master.gimp.org."),
