@@ -193,6 +193,7 @@ D("gnome.org", REG_GANDI,
     CNAME("download", "1673558209.rsc.cdn77.org."),
     CNAME("static", "1009550802.rsc.cdn77.org."),
     CNAME("www-old", "1009550802.rsc.cdn77.org."),
+    CNAME("exchange-api", "1319176167.rsc.cdn77.org."),
 
     // International websites
     CNAME("cz", "ingress.openshift.gnome.org."),
