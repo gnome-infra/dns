@@ -13,6 +13,8 @@ D("gnome.org", REG_GANDI,
     NS("openshift", "ns-1149.awsdns-15.org."),
     DS("openshift", 65413, 13, 2, "0431E5213EC93739217B7BE1E96450FB2091794881F9B14B31586E5C2D4BF6B1"),
 
+    A("smtp", "44.216.4.43"),
+
     // SPF
     TXT("@", "v=spf1 a:smtp.gnome.org -all"),
     TXT("smtp", "v=spf1 a:smtp.gnome.org -all"),
@@ -29,10 +31,6 @@ D("gnome.org", REG_GANDI,
     TXT("default._domainkey.src", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
     TXT("default._domainkey.signal", "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTA1zgW8+e7haZgEoZAMmoMC7jwekFKv6AV7OQbsOKLpAnLivyVUbFe5Rg9MwIRDL2D5fBaItjDojgpZJlr8lPLEcB8R5eGj7rKSUAgd0ufSoV+rmYbQGu0+A3Kuz/ynJCmw86K3UrjqMW/YHGAv4Jg/+Dx2e0cUKbJu43fvgZ6QIDAQAB"),
     TXT("_dmarc", "v=DMARC1; p=reject; adkim=s; aspf=s;"),
-
-    // Virtual machines (RDU2)
-    A("smtp", "8.43.85.24"),
-    AAAA("smtp", "2620:52:3:1:5054:ff:fef4:6212"),
 
     // FreeIPA
     CNAME("idm01", "ingress.openshift.gnome.org."),
