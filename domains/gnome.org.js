@@ -105,6 +105,7 @@ D("gnome.org", REG_GANDI,
     CNAME("brand", "ingress.openshift.gnome.org."),
     CNAME("cantarell", "ingress.openshift.gnome.org."),
     CNAME("circle", "ingress.openshift.gnome.org."),
+    CNAME("donate", "ingress.openshift.gnome.org."),
     CNAME("forty", "ingress.openshift.gnome.org."),
     CNAME("foundation-handbook", "ingress.openshift.gnome.org."),
     CNAME("glade", "ingress.openshift.gnome.org."),
@@ -179,9 +180,6 @@ D("gnome.org", REG_GANDI,
     CNAME("onlyoffice.gbm", "gbm.gnome.org."),
 
     // BigBlueButton
-    A("bbb", "147.75.102.91"),
-    A("bbb2", "136.144.48.245"),
-    A("turn", "147.28.151.230"),
     A("bbb3", "8.43.85.20"),
 
     // GNOME Nightly
