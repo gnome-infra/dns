@@ -160,6 +160,7 @@ D("gnome.org", REG_GANDI,
     CNAME("registry.gitlab", "ingress.openshift.gnome.org."),
     CNAME("67d392e4f86e8049013c4e9b216cffbe.gitlab", "verify.bing.com."),
     A("ssh.gitlab", "98.83.181.181"),
+    AAAA("ssh.gitlab", "2600:1f18:35a9:802:9def:3efe:50a2:ea93"),
 
     NS("pages.gitlab", "ns-270.awsdns-33.com."),
     NS("pages.gitlab", "ns-1725.awsdns-23.co.uk."),
