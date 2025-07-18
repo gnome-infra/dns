@@ -200,7 +200,7 @@ D("gnome.org", REG_GANDI,
     CNAME("gr", "ingress.openshift.gnome.org."),
 
     // IRC
-    A("irc", "3.95.61.174"),
+    A("irc", "52.72.77.200"),
 
     // ACME challenges
     CNAME("_acme-challenge.irc", "org.gnome.irc.le.libera.chat."),
