@@ -185,7 +185,7 @@ D("gnome.org", REG_GANDI,
     A("bbb3", "8.43.85.20"),
 
     // GNOME Nightly
-    A("flat-manager", "3.249.48.21"),
+    CNAME("flat-manager", "ingress.openshift.gnome.org."),
     CNAME("nightly", "1692472846.rsc.cdn77.org."),
 
     // CDN
