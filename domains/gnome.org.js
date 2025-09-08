@@ -5,6 +5,7 @@ D("gnome.org", REG_GANDI,
     // Verification(s)
     TXT("@", "google-site-verification=CERH6P8oe_jgCNAsVY7ZnHJba1Csf2hHJ779kJPtXKA"),
     TXT("@", "MS=ms80787754"),
+    TXT("@", "google-site-verification=JZGVWuSiIO-PViWsZUhZLKastco1zdl_nmrHkNO0QbI"),
 
     // Delegation(s)
     NS("openshift", "ns-527.awsdns-01.net."),
