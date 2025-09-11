@@ -199,6 +199,7 @@ D("gnome.org", REG_GANDI,
     CNAME("cz", "ingress.openshift.gnome.org."),
     CNAME("in", "ingress.openshift.gnome.org."),
     CNAME("gr", "ingress.openshift.gnome.org."),
+    CNAME("fa", "ingress.openshift.gnome.org."),
 
     // IRC
     A("irc", "52.72.77.200"),
