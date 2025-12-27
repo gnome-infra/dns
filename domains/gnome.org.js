@@ -58,6 +58,7 @@ D("gnome.org", REG_GANDI,
     CNAME("mutter", "ingress.openshift.gnome.org."),
     CNAME("nominatim", "ingress.openshift.gnome.org."),
     CNAME("odrs", "1527653184.rsc.cdn77.org."),
+    CNAME("openqa", "ingress.openshift.gnome.org."),
     CNAME("os", "ingress.openshift.gnome.org."),
     CNAME("pad", "ingress.openshift.gnome.org."),
     CNAME("password", "ingress.openshift.gnome.org."),
@@ -170,8 +171,6 @@ D("gnome.org", REG_GANDI,
     NS("pages.gitlab", "ns-1004.awsdns-61.net."),
     NS("pages.gitlab", "ns-1514.awsdns-61.org."),
     DS("pages.gitlab", 65413, 13, 2, "AD22765C9599CBACDD5EB15959B343E9C1206BE6282A7F868823935EAFCDC933"),
-
-    A("openqa", "206.189.11.200"),
 
     // Virtual machines at OSUOSL
     A("signal", "140.211.167.18"),
