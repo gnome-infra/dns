@@ -141,6 +141,7 @@ D("gnome.org", REG_GANDI,
 
     // MX records
     MX("@", 10, "smtp.gnome.org."),
+    MX("gitlab", 10, "smtp.gnome.org."),
 
     // SSHFP entries
     SSHFP("bastion02", 1, 1, "aac50ca7d7ec601d4a76daef4020cecd052af915"),
