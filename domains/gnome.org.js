@@ -158,6 +158,7 @@ D("gnome.org", REG_GANDI,
 
     // GitLab
     CNAME("gitlab", "ingress.openshift.gnome.org.", TTL(30)),
+    CNAME("origin.gitlab", "ingress.openshift.gnome.org.", TTL(30)),
     CNAME("proxy.gitlab", "ingress.openshift.gnome.org."),
     CNAME("register.gitlab", "ingress.openshift.gnome.org."),
     CNAME("registry.gitlab", "ingress.openshift.gnome.org."),
