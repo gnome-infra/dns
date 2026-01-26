@@ -157,7 +157,7 @@ D("gnome.org", REG_GANDI,
     SSHFP("ssh.gitlab", 4, 2, "63d1b87568887e2e772d1dc89c95ac21bbf895e9141e89eafc7aea4d39bfadcc"),
 
     // GitLab
-    CNAME("gitlab", "ingress.openshift.gnome.org.", TTL(30)),
+    CNAME("gitlab", "dualstack.n.sni.global.fastly.net.", TTL(30)),
     CNAME("origin.gitlab", "ingress.openshift.gnome.org.", TTL(30)),
     CNAME("proxy.gitlab", "ingress.openshift.gnome.org."),
     CNAME("register.gitlab", "ingress.openshift.gnome.org."),
