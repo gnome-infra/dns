@@ -5,6 +5,7 @@ D("gnome.io", REG_GANDI,
     ALIAS("@", "ingress.openshift.gnome.org."),
     CNAME("www", "ingress.openshift.gnome.org."),
 
+    CNAME("listmonk", "ingress.openshift.gnome.org."),
     CNAME("mixpost", "ingress.openshift.gnome.org."),
     CNAME("wiki", "ingress.openshift.gnome.org."),
     END);
