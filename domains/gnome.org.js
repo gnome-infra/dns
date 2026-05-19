@@ -141,6 +141,9 @@ D("gnome.org", REG_GANDI,
     CNAME("staff-mail", "smtp.gnome.org."),
     SRV("_imaps._tcp.staff-mail", 0, 1, 993, "staff-mail.gnome.org."),
     SRV("_submission._tcp.staff-mail", 0, 1, 587, "staff-mail.gnome.org."),
+
+    // Matrix
+    CNAME("policyserv.matrix", "ingress.openshift.gnome.org."),
     SRV("_matrix._tcp", 10, 5, 443, "gnome.modular.im."),
 
     // MX records
