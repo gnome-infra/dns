@@ -40,7 +40,7 @@ D("gnome.org", REG_GANDI,
     CNAME("_7b45e79a96a58d6c8d893a6c8144d2ce.idm", "_cf5f5afa9f01c2f76592fa301f7bde13.djqtsrsxkq.acm-validations.aws."),
 
     // OpenShift @ AWS
-    ALIAS("@", "ingress.openshift.gnome.org."),
+    ALIAS("@", "dualstack.n.sni.global.fastly.net."),
     CNAME("blogs", "ingress.openshift.gnome.org."),
     CNAME("bugzilla", "1342705358.rsc.cdn77.org."),
     CNAME("cloud", "ingress.openshift.gnome.org."),
@@ -74,7 +74,7 @@ D("gnome.org", REG_GANDI,
     CNAME("vote", "ingress.openshift.gnome.org."),
     CNAME("webstats", "ingress.openshift.gnome.org."),
     CNAME("wiki", "1876207943.rsc.cdn77.org."),
-    CNAME("www", "ingress.openshift.gnome.org."),
+    CNAME("www", "dualstack.n.sni.global.fastly.net."),
 
     // Redirects
     CNAME("api", "ingress.openshift.gnome.org."),
