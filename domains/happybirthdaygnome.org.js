@@ -4,4 +4,5 @@ D("happybirthdaygnome.org", REG_GANDI,
     MX("@", 10, "smtp.gnome.org."),
     ALIAS("@", "ingress.openshift.gnome.org."),
     CNAME("www", "ingress.openshift.gnome.org."),
+    CNAME("_acme-challenge", "piruex9cj04jopz1k3.fastly-validations.com."),
     END);

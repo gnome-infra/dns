@@ -13,5 +13,6 @@ D("gtk.org", REG_MONITOR,
     CNAME("ftp.rapicorn", "rapicorn.gtk.org."),
     CNAME("www.rapicorn", "rapicorn.gtk.org."),
     CNAME("blog", "blogs.gnome.org."),
+    CNAME("_acme-challenge", "m96ji2hmke0c6k3d5r.fastly-validations.com."),
     CNAME("_acme-challenge.ftp", "uxozldew200uocqpz7.fastly-validations.com."),
     END);
