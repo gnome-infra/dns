@@ -5,7 +5,7 @@ D("flatpak.org", REG_GANDI,
 
     MX("@", 10, "smtp.gnome.org."),
     CNAME("docs", "readthedocs.io."),
-    CNAME("www", "ingress.openshift.gnome.org."),
+    CNAME("www", "dualstack.n.sni.global.fastly.net."),
     TXT("@", "libera-iE!2PbqoQsUaDXkRDrbAX2_j"),
     TXT("_github-challenge-flatpak-org", "917f6431b5"),
     CNAME("_acme-challenge.www", "9gtmmm2futr04qa3q9.fastly-validations.com."),
