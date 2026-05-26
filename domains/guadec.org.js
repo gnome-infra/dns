@@ -28,4 +28,5 @@ D("guadec.org", REG_GANDI,
     CNAME("2021", "ingress.openshift.gnome.org."),
     CNAME("videos", "1835215117.rsc.cdn77.org."),
     CNAME("registration", "events.gnome.org."),
+    CNAME("_acme-challenge", "qgwrijekjz0vj8vaut.fastly-validations.com."),
     END);

@@ -38,5 +38,6 @@ D("gnome.asia", REG_GANDI,
     CNAME("2019", "gnome-asia.github.io."),
     CNAME("2020", "ingress.openshift.gnome.org."),
     CNAME("google3ead69f8239dfb8a", "google.com."),
+    CNAME("_acme-challenge", "soxp6l4rea7zauwxn4.fastly-validations.com."),
     TXT("@", "github-verification=a7zjTstjyQXRYw49sP6CxDCMF4BGKTGqdZWQGIRDER"),
     END);
