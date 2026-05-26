@@ -40,7 +40,7 @@ D("gnome.org", REG_GANDI,
     CNAME("_7b45e79a96a58d6c8d893a6c8144d2ce.idm", "_cf5f5afa9f01c2f76592fa301f7bde13.djqtsrsxkq.acm-validations.aws."),
 
     // OpenShift @ AWS
-    ALIAS("@", "ingress.openshift.gnome.org."),
+    ALIAS("@", "ingress.openshift.gnome."),
     CNAME("blogs", "ingress.openshift.gnome.org."),
     CNAME("bugzilla", "1342705358.rsc.cdn77.org."),
     CNAME("cloud", "ingress.openshift.gnome.org."),
@@ -216,6 +216,8 @@ D("gnome.org", REG_GANDI,
     CNAME("_acme-challenge.gitlab", "frdo983d5wxmunpfeb.fastly-validations.com."),
     CNAME("_acme-challenge.people", "n7i21zfusuuddhymyz.fastly-validations.com."),
     CNAME("_acme-challenge.apps", "wdixfokrfr85vs71iq.fastly-validations.com."),
+    CNAME("_acme-challenge.www", "zsupm9ds8mmfga44xs.fastly-validations.com."),
+    CNAME("_acme-challenge", "nr30auvvvbz0ecswcu.fastly-validations.com."),
 
     // dnswl.org
     TXT("_token._dnswl", "hewo9ao76bak72hj4ibztak7761mk97y"),
