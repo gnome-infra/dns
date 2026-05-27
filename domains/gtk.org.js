@@ -12,7 +12,7 @@ D("gtk.org", REG_MONITOR,
     CNAME("rapicorn", "rapicorn.testbit.eu."),
     CNAME("ftp.rapicorn", "rapicorn.gtk.org."),
     CNAME("www.rapicorn", "rapicorn.gtk.org."),
-    CNAME("blog", "blogs.gnome.org."),
+    CNAME("blog", "dualstack.n.sni.global.fastly.net."),
     CNAME("_acme-challenge", "m96ji2hmke0c6k3d5r.fastly-validations.com."),
     CNAME("_acme-challenge.ftp", "uxozldew200uocqpz7.fastly-validations.com."),
     END);
