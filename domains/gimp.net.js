@@ -39,4 +39,6 @@ D("gimp.net", REG_MONITOR,
     CNAME("ftp.au", "gimp.planetmirror.com."),
     CNAME("www.au", "gimp.planetmirror.com."),
     CNAME("www.it", "gimp.linux.it."),
+    CNAME("_acme-challenge", "exhvk9cgiyo5dc1uou.fastly-validations.com."),
+    CNAME("_acme-challenge.www", "3bch0fq4lxjgvuiyor.fastly-validations.com."),
     END);

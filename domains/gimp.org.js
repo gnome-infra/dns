@@ -56,4 +56,6 @@ D("gimp.org", REG_MONITOR,
     SSHFP("master", 4, 2, "fc8fdfe7b74bbac776d541c71398cef10ce0a53f9b2672025ba3c6f567deb417"),
     CNAME("_9c633c198c56963d60a463b4c5b07218.irc", "E49A603558A818092A9DECA64206B3E0.C18CBE81EF404B545484A1551A9CF225.ff23707fd0625ccdfb4f.sectigo.com."),
     TXT("@", "SNAPCRAFT_IO_VERIFICATION=03cc7c3b06fa922e0c9314615132f61c73e708d4a2e839092bfb50afc5b78a31"),
+    CNAME("_acme-challenge", "ny5lrl2akt2db9vzhr.fastly-validations.com."),
+    CNAME("_acme-challenge.www", "7nh77cvky9ci87hye6.fastly-validations.com."),
     END);
