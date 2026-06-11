@@ -131,7 +131,7 @@ D("gnome.org", REG_GANDI,
     CNAME("nmcheck", "dualstack.n.sni.global.fastly.net."),
 
     // ECS
-    CNAME("sso", "keycloak-114023638.us-east-1.elb.amazonaws.com.."),
+    CNAME("sso", "keycloak-114023638.us-east-1.elb.amazonaws.com."),
     CNAME("_d3c9c0adcccbf0448ef7f77af1bb32dd.sso", "_bef0ad7051c15d57b51a704e3fd316a1.jkddzztszm.acm-validations.aws."),
 
     // Sysadmin
