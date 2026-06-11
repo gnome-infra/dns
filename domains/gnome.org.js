@@ -67,8 +67,6 @@ D("gnome.org", REG_GANDI,
     CNAME("planet", "dualstack.n.sni.global.fastly.net."),
     CNAME("reader", "ingress.openshift.gnome.org."),
     CNAME("security", "ingress.openshift.gnome.org."),
-    CNAME("sso", "ingress.openshift.gnome.org."),
-    CNAME("_d3c9c0adcccbf0448ef7f77af1bb32dd.sso", "_bef0ad7051c15d57b51a704e3fd316a1.jkddzztszm.acm-validations.aws."),
     CNAME("tileserver", "1820235950.rsc.cdn77.org."),
     CNAME("vault", "ingress.openshift.gnome.org."),
     CNAME("vote", "ingress.openshift.gnome.org."),
@@ -131,6 +129,10 @@ D("gnome.org", REG_GANDI,
 
     // Fastly
     CNAME("nmcheck", "dualstack.n.sni.global.fastly.net."),
+
+    // ECS
+    CNAME("sso", "keycloak-114023638.us-east-1.elb.amazonaws.com.."),
+    CNAME("_d3c9c0adcccbf0448ef7f77af1bb32dd.sso", "_bef0ad7051c15d57b51a704e3fd316a1.jkddzztszm.acm-validations.aws."),
 
     // Sysadmin
     A("bastion02", "98.83.131.224"),
