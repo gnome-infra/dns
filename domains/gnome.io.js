@@ -5,6 +5,7 @@ D("gnome.io", REG_GANDI,
     ALIAS("@", "dualstack.n.sni.global.fastly.net."),
     CNAME("www", "dualstack.n.sni.global.fastly.net."),
 
+    CNAME("freescout", "ingress.openshift.gnome.org."),
     CNAME("listmonk", "ingress.openshift.gnome.org."),
     CNAME("mixpost", "ingress.openshift.gnome.org."),
     CNAME("webmail", "ingress.openshift.gnome.org."),
