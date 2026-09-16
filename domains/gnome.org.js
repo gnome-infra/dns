@@ -183,8 +183,6 @@ D("gnome.org", REG_GANDI,
     NS("pages.gitlab", "ns-1514.awsdns-61.org."),
     DS("pages.gitlab", 65413, 13, 2, "AD22765C9599CBACDD5EB15959B343E9C1206BE6282A7F868823935EAFCDC933"),
 
-    TXT("gitlab", "google-site-verification=TOYNWCnlQUEgnbi9Zi0KWq1B9rdnZEkTgI_xMmytqy4"),
-
     // Virtual machines at OSUOSL
     A("signal", "140.211.167.18"),
     CNAME("status", "signal.gnome.org."),
