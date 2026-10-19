@@ -189,11 +189,7 @@ D("gnome.org", REG_GANDI,
     CNAME("status", "signal.gnome.org."),
 
     // gnome-build-meta and aux services
-    A("m3-large-x86", "147.28.151.79"),
-    CNAME("minio", "m3-large-x86.gnome.org."),
-    CNAME("onlyoffice.cloud", "m3-large-x86.gnome.org."),
     A("gbm", "38.145.34.61"),
-    CNAME("onlyoffice.gbm", "gbm.gnome.org."),
 
     // BigBlueButton
     A("bbb3", "38.145.34.62"),
