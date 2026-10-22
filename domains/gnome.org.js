@@ -191,6 +191,7 @@ D("gnome.org", REG_GANDI,
     // gnome-build-meta and aux services
     A("gbm", "38.145.34.61"),
     A("gbm-01", "38.145.34.61"),
+    CNAME("cas.os", "1750323525.rsc.cdn77.org."),
 
     // BigBlueButton
     A("bbb3", "38.145.34.62"),
