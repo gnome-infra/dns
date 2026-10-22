@@ -190,6 +190,7 @@ D("gnome.org", REG_GANDI,
 
     // gnome-build-meta and aux services
     A("gbm", "38.145.34.61"),
+    A("gbm-01", "38.145.34.61"),
 
     // BigBlueButton
     A("bbb3", "38.145.34.62"),
